@@ -1,0 +1,17 @@
+.banner{
+    background-color: #79d2d2;
+
+    img{
+        margin: 38px 114px;
+        width: 84%;
+    }
+}
+@media(max-width:780px){
+    .banner {
+        width: 100%;
+        img{
+            margin: 22px 21px;
+            width: 84%;
+        }
+    }
+}

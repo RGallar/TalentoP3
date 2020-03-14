@@ -1,0 +1,94 @@
+header {
+    .pedido{
+        background-color: black;
+        color: white;
+        margin: 0px;
+        height: 39px;
+
+        h3{
+            padding: 10px;
+            font-size: small;
+    }
+    
+    }
+    .opciones{
+        width: 100%;
+        display: inline-flex;
+
+        .logo{
+            width: 20%;
+        }
+
+        .productos{
+            width: 100%;
+
+                ul{
+                    display: inline-flex;
+                    width: 100%;
+
+                li{
+                    display: block;
+                    width: 15%;
+                    padding: 10px;
+
+                a{
+                    font-size: 12px;
+                    text-decoration: none;
+
+                }
+
+            }
+
+        }
+    }   
+       .botones{
+            padding: 24px;
+
+            img{
+                width: 10px;
+                
+            }
+
+            button{
+                display: contents;
+                font-size: 10px;
+        }
+       }
+    }
+}
+@media(max-width:780px){
+
+header{
+    .opciones{
+           display: contents;
+        .logo{
+            width: 100%;
+            text-align: center;
+           }
+    .botones{
+        img{
+            width: 35px;
+            border-radius: 100%;
+        }
+    }
+}
+.productos{
+    background-color: black;
+    ul {
+        flex-direction: column;
+        padding: 0;
+        
+    }
+    li{
+        width: 100%;
+     
+    }
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
+    }
+
+    }
+}

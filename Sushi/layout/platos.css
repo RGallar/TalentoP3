@@ -1,0 +1,48 @@
+.platos .columna1 {
+  padding: 0px 100px;
+  display: inline-flex; }
+  .platos .columna1 div {
+    width: 25%; }
+  .platos .columna1 img {
+    height: 80%;
+    width: 85%;
+    padding: 10px 28px; }
+.platos .columna2 {
+  padding: 0px 100px;
+  display: inline-flex; }
+  .platos .columna2 div {
+    width: 25%; }
+  .platos .columna2 img {
+    height: 80%;
+    width: 85%;
+    padding: 10px 28px; }
+
+@media (max-width: 780px) {
+  .platos .columna1 {
+    display: contents; }
+    .platos .columna1 img {
+      width: 39%;
+      border-radius: 100%;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+    .platos .columna1 div {
+      width: 100%;
+      text-align: center; }
+    .platos .columna1 h2 {
+      border-bottom: solid gray; }
+    .platos .columna1 p {
+      border-bottom: solid gray; }
+  .platos .columna2 {
+    display: contents; }
+    .platos .columna2 img {
+      width: 39%;
+      border-radius: 100%;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+    .platos .columna2 div {
+      width: 100%;
+      text-align: center; }
+    .platos .columna2 h2 {
+      border-bottom: solid gray; }
+    .platos .columna2 p {
+      border-bottom: solid gray; } }
+
+/*# sourceMappingURL=platos.css.map */

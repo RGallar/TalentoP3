@@ -1,0 +1,54 @@
+header .pedido {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  height: 39px; }
+  header .pedido h3 {
+    padding: 10px;
+    font-size: small; }
+header .opciones {
+  width: 100%;
+  display: inline-flex; }
+  header .opciones .logo {
+    width: 20%; }
+  header .opciones .productos {
+    width: 100%; }
+    header .opciones .productos ul {
+      display: inline-flex;
+      width: 100%; }
+      header .opciones .productos ul li {
+        display: block;
+        width: 15%;
+        padding: 10px; }
+        header .opciones .productos ul li a {
+          font-size: 12px;
+          text-decoration: none; }
+  header .opciones .botones {
+    padding: 24px; }
+    header .opciones .botones img {
+      width: 10px; }
+    header .opciones .botones button {
+      display: contents;
+      font-size: 10px; }
+
+@media (max-width: 780px) {
+  header .opciones {
+    display: contents; }
+    header .opciones .logo {
+      width: 100%;
+      text-align: center; }
+    header .opciones .botones img {
+      width: 35px;
+      border-radius: 100%; }
+  header .productos {
+    background-color: black; }
+    header .productos ul {
+      flex-direction: column;
+      padding: 0; }
+    header .productos li {
+      width: 100%; }
+    header .productos a {
+      text-decoration: none;
+      color: white; } }
+
+/*# sourceMappingURL=header.css.map */
